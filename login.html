@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+</head>
+
+<body>
+    <header class="transparent-header" id="mainHeader">
+        <div class="header-container">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">首页</a></li>
+                    <li><a href="#">生活日志</a></li>
+                    <li><a href="#">宿舍好物分享</a></li>
+                    <li><a href="#">树洞回声</a></li>
+                    <li><a href="#">梧高指南</a></li>
+                    <li><a href="http://127.0.0.1:5500/team-introduction.html" class=".special">关于主创团队</a></li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/login.html" style="background-color: #e58889;"><img src="./img/index/IMG_20250125_113941_edit_349457359317508.png" alt="">登录/注册</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box box-back">
+            <div class="content-right">
+                <h1>欢迎登录</h1>
+                <p class="quote">"枯木会逢春，我们要走的路也会繁花似锦！"</p>
+                <img src="./img/login/IMG_20250607_124828.png">
+                <p>还没有账号？<a href="#">去注册</a></p>
+            </div>
+        </div>
+
+        <div class="box box-front">
+            <div class="content-left">
+                <h1>登录</h1>
+                <form action="#" method="post" name="login">
+                    <div class="input-group">
+                        <label for="user-number">账号：</label>
+                        <input type="text" name="user-number" pattern="^[0-9]*$" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="pwd">密码：</label>
+                        <input type="password" name="pwd" pattern="^[a-zA-Z]\w{5,17}$" required>
+                    </div>
+                    <div class="forget">
+                        <label for="remember">
+                            <input type="checkbox" id="remember">
+                            <p>记住密码</p>
+                        </label>
+                        <a href="#">忘记密码</a>
+                    </div>
+                    <button type="submit" class="login-btn">登录</button>
+                </form>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+            <p>你也想给学弟学妹们分享你的大学生活嘛？那就快来接入我们吧🙌！</p>
+            <p>向我们的邮箱投递你的信息，我们会在两个工作日之内给您回复哟！</p>
+            <p>📭邮箱：2991491693@qq.com</p>
+        </footer>
+</body>
+
+</html>
